@@ -48,7 +48,7 @@ fun ClosestStopsScreen(closestStops: List<StopWithDistance> , onRefresh: () -> U
                 modifier = Modifier.align(Alignment.BottomCenter) // Position the FAB at the bottom center
             ) {
                 // Replace with an appropriate icon
-                Text("Refresh")
+                Text("Refresh Location")
             }
 
         }
